@@ -4,7 +4,7 @@ body{
 }
 
 #header-nav{
-	background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/starbg.png");
+	background: url("../images/starbg.png");
 	border-radius: 10px;
 	border: 0;
 	margin: 10px;
@@ -115,12 +115,12 @@ body{
 }
 
 #menu-tile{
-	background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/menu.jpg");
+	background: url("../images/menu.jpg");
 	background-position: center; 
 }
 
 #special-tile{
-	background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/special-menu.jpg");
+	background: url("../images/special-menu.jpg");
 	background-position: center; 
 }
 
@@ -141,7 +141,7 @@ body{
 @media (min-width: 1200px){
 
 	.container .jumbotron{
-		background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/star-rises-1200.jpg") no-repeat;
+		background: url("../images/star-rises-1200.jpg") no-repeat;
 		height: 768px;
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3DAFA9;
@@ -151,7 +151,7 @@ body{
 
 @media (min-width: 991px) and (max-width: 1199px){
 	.container .jumbotron{
-		background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/star-rises-998.jpg") no-repeat;
+		background: url("../images/star-rises-998.jpg") no-repeat;
 		height: 768px;
 		background-position: center;
 		box-shadow: 0 0 50px #3F0C1F;
@@ -161,7 +161,7 @@ body{
 
 @media (min-width: 776px) and (max-width: 990px){
 	.container .jumbotron{
-		background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/star-rises-760.jpg") no-repeat;
+		background: url("../images/star-rises-760.jpg") no-repeat;
 		height: 720px;
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3DAFA9;
