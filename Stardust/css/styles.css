@@ -25,12 +25,19 @@ body{
 	border: 0;
 }
 
+.navbar-brand{
+	padding-top: 25px;
+}
+
 .navbar-brand h1{
 	font-family: 'Stardos Stencil', cursive;
 	color: #29B88A;
 	size: 1.5em;
 	text-transform: uppercase;
-	text-shadow: 2px 2px 4px #000000;	
+	text-shadow: 2px 2px 4px #000000;
+	margin-top: 15px;
+	margin-bottom: 0;
+	line-height: .75;	
 }
 
 .navbar-brand a:hover,.navbar-brand a:focus{
@@ -53,6 +60,7 @@ body{
 #nav-list a:hover{
 	color: #74D398;
 }
+
 
 #nav-list div{
 	color: #5999B0;
@@ -149,7 +157,7 @@ body{
 
 }
 
-@media (min-width: 991px) and (max-width: 1199px){
+@media (min-width: 992px) and (max-width: 1199px){
 	.container .jumbotron{
 		background: url("../images/star-rises-998.jpg") no-repeat;
 		height: 768px;
@@ -159,7 +167,7 @@ body{
 	}    
 }
 
-@media (min-width: 776px) and (max-width: 990px){
+@media (min-width: 768px) and (max-width: 991px){
 	.container .jumbotron{
 		background: url("../images/star-rises-760.jpg") no-repeat;
 		height: 720px;
@@ -173,10 +181,10 @@ body{
 
 }
 
-@media (max-width: 775px){
+@media (max-width: 767px){
 	.navbar-brand{
 		padding-top: 10px;
-		height: 80px;
+		height: 100px;
 	}
 
 	.navbar-brand h1{
@@ -232,6 +240,11 @@ body{
 
 	.panel-footer section hr{
 		width: 50%;
+	}
+
+	#menu-tile, #special-tile{
+		width: 360px;
+		margin: 0 auto 15px;		
 	}
 
 }
