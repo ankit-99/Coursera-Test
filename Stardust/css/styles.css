@@ -1,0 +1,237 @@
+body{
+
+	background-color: gray;
+}
+
+#header-nav{
+	background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/starbg.png");
+	border-radius: 10px;
+	border: 0;
+	margin: 10px;
+	box-shadow: all;
+
+}
+
+#logo-img{
+	width: 150px;
+	height: 150px;
+
+}
+
+#img{
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 0;
+}
+
+.navbar-brand h1{
+	font-family: 'Stardos Stencil', cursive;
+	color: #29B88A;
+	size: 1.5em;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 4px #000000;	
+}
+
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-brand p span{
+	vertical-align: middle;
+	color: #CCE512;
+}
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: #D64747;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	color: #74D398;
+}
+
+#nav-list div{
+	color: #5999B0;
+	text-align: right;
+	padding-right: 15px;	
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+	color: #35B38B;
+}
+
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+#hours, #address{
+	line-height: 2;
+}
+
+#hours > span, #address > span{
+	font-size: 1.3em;
+}
+
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+
+
+
+#menu-tile, #special-tile, #map-tile{
+	height: 250px;
+	width: 100%
+	margin-bottom:15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+
+#menu-tile:hover, #special-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile{
+	background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/menu.jpg");
+	background-position: center; 
+}
+
+#special-tile{
+	background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/special-menu.jpg");
+	background-position: center; 
+}
+
+#menu-tile span, #special-tile span, #map-tile span{
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
+@media (min-width: 1200px){
+
+	.container .jumbotron{
+		background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/star-rises-1200.jpg") no-repeat;
+		height: 768px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3DAFA9;
+	}
+
+}
+
+@media (min-width: 991px) and (max-width: 1199px){
+	.container .jumbotron{
+		background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/star-rises-998.jpg") no-repeat;
+		height: 768px;
+		background-position: center;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3DAFA9;
+	}    
+}
+
+@media (min-width: 776px) and (max-width: 990px){
+	.container .jumbotron{
+		background: url("/home/ankit/Desktop/Github/Coursera-Test/Stardust/images/star-rises-760.jpg") no-repeat;
+		height: 720px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3DAFA9;
+	}    
+
+	.row section p{
+    	overflow: visible;
+    }
+
+}
+
+@media (max-width: 775px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+
+	.navbar-brand p{
+		text-transform: uppercase;
+		font-size: .6em;
+		margin-top: 12px;
+	}
+
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	#call-btn > a{
+		font-size: 1.5em;
+		display: block;
+		margin: 0 20px;
+		padding: 10px;
+		border: 2px solid #fff;
+		background-color: #f6b319;
+		color: #951c49;
+	}
+
+	#xs-deliver{
+		margin-top: 5px;
+		font-size: .7em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+	}
+
+	.container .jumbotron{
+		margin-top: 30px;
+		padding: 0;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
+
+	.panel-footer section{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+    
+
+
+	.panel-footer section hr{
+		width: 50%;
+	}
+
+}
